@@ -88,7 +88,7 @@ export default function BodyFatCalculator() {
         />
         <meta
           property="og:url"
-          content="https://yourwebsite.com/body-fat-calculator"
+          content="https://utilitycalculator.vercel.app/body-fat-calculator"
         />
       </Head>
 

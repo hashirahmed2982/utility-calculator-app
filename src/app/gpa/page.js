@@ -140,12 +140,12 @@ export default function CGPACalculator() {
     name: "CGPA Calculator",
     description:
       "Use the ultimate CGPA calculator to calculate your GPA, CGPA, and download a transcript PDF.",
-    url: "https://yourwebsite.com/cgpa-calculator",
-    mainEntityOfPage: "https://yourwebsite.com/cgpa-calculator",
+    url: "https://utilitycalculator.vercel.app/cgpa-calculator",
+    mainEntityOfPage: "https://utilitycalculator.vercel.app/cgpa-calculator",
     image: "/file.svg",
     potentialAction: {
       "@type": "Action",
-      target: "https://yourwebsite.com/cgpa-calculator",
+      target: "https://utilitycalculator.vercel.app/cgpa-calculator",
       name: "Calculate CGPA",
     },
   };

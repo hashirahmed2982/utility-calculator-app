@@ -60,7 +60,7 @@ export default function IdealWeightCalculator() {
           property="og:description"
           content="Use our Ideal Weight calculator to estimate your ideal body weight based on height and gender."
         />
-        <meta property="og:url" content="https://yourwebsite.com/ideal-weight-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/ideal-weight-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

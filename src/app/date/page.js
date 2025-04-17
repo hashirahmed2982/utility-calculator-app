@@ -42,7 +42,7 @@ export default function DateCalculator() {
           property="og:description"
           content="Use our Date Calculator to calculate the duration between two dates. Find out how many years, months, and days between the selected dates."
         />
-        <meta property="og:url" content="https://yourwebsite.com/date-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/date-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

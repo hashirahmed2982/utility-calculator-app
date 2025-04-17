@@ -56,7 +56,7 @@ export default function InterestCalculator() {
           property="og:description"
           content="Calculate the interest on your loan or investment with our simple interest calculator and access related financial articles."
         />
-        <meta property="og:url" content="https://yourwebsite.com/interest-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/interest-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

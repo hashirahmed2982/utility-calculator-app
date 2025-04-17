@@ -56,7 +56,7 @@ export default function AutoLoanCalculator() {
           property="og:description"
           content="Use our auto loan calculator to estimate your monthly payments and access related articles on car loans."
         />
-        <meta property="og:url" content="https://yourwebsite.com/auto-loan-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/auto-loan-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

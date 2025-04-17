@@ -60,7 +60,7 @@ export default function BmrCalculator() {
           property="og:description"
           content="Use our BMR calculator to estimate your basal metabolic rate (BMR) and get insights on your daily calorie needs."
         />
-        <meta property="og:url" content="https://yourwebsite.com/bmr-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/bmr-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

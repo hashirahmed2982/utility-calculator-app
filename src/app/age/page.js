@@ -46,7 +46,7 @@ export default function AgeCalculator() {
           property="og:description"
           content="Use our Age Calculator to calculate your exact age in years, months, and days based on your birthdate."
         />
-        <meta property="og:url" content="https://yourwebsite.com/age-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/age-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

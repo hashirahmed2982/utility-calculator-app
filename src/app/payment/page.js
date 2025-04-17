@@ -57,7 +57,7 @@ export default function PaymentCalculator() {
           property="og:description"
           content="Calculate your monthly loan payment with our payment calculator and access related financial articles."
         />
-        <meta property="og:url" content="https://yourwebsite.com/payment-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/payment-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

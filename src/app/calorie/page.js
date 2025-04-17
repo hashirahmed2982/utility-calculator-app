@@ -63,7 +63,7 @@ export default function CalorieCalculator() {
           property="og:description"
           content="Use our calorie calculator to determine how many calories you need each day based on your weight, height, age, gender, and activity level."
         />
-        <meta property="og:url" content="https://yourwebsite.com/calorie-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/calorie-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

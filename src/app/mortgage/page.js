@@ -57,7 +57,7 @@ export default function MortgageCalculator() {
           property="og:description"
           content="Use our mortgage calculator to calculate monthly mortgage payments and access helpful mortgage-related articles."
         />
-        <meta property="og:url" content="https://yourwebsite.com/mortgage-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/mortgage-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

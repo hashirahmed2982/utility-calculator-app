@@ -51,7 +51,7 @@ export default function BMICalculator() {
           property="og:description"
           content="Use our BMI calculator to determine your BMI based on weight and height, and access helpful health-related articles."
         />
-        <meta property="og:url" content="https://yourwebsite.com/bmi-calculator" />
+        <meta property="og:url" content="https://utilitycalculator.vercel.app/bmi-calculator" />
       </Helmet>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
