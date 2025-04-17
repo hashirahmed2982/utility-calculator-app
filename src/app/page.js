@@ -31,7 +31,7 @@ export default function HomePage() {
             { name: 'Auto Loan Calculator', href: 'auto-loan' },
             { name: 'Interest Calculator', href: 'interest' },
             { name: 'Payment Calculator', href: 'payment' },
-            { name: 'Finance Calculator', href: 'finance' },
+            // { name: 'Finance Calculator', href: 'finance' },
 
           ]}
         />
@@ -46,7 +46,7 @@ export default function HomePage() {
             { name: 'Ideal Weight Calculator', href: 'ideal-weight' },
           ]}
         />
-        <Category
+        {/* <Category
           title="Math Calculators"
           basePath="math"
           links={[
@@ -56,7 +56,7 @@ export default function HomePage() {
             { name: 'Random Number Generator', href: 'random' },
             { name: 'Standard Deviation Calculator', href: 'standard-deviation' },
           ]}
-        />
+        /> */}
         <Category
           title="Other Calculators"
           basePath="other"
