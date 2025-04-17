@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { NextSeo } from 'next-seo';
+
 
 export default function PercentageCalculator() {
   const [value, setValue] = useState("");
@@ -16,11 +16,7 @@ export default function PercentageCalculator() {
 
   return (
     <>
-      <NextSeo
-        title="Percentage Calculator – Fast and Simple"
-        description="Easily calculate any percentage of a number. Free and accurate online percentage calculator."
-        canonical="https://yourdomain.com/percentage"
-      />
+      
       <div className="max-w-xl mx-auto p-4">
         <h1 className="text-3xl font-bold mb-4">Percentage Calculator</h1>
         <div className="space-y-4">

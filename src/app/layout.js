@@ -1,7 +1,7 @@
 // src/app/layout.js
 import './globals.css';
 
-import SEOProvider from "../components/SEOProvider";
+
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://yourdomain.com" />
       </head>
       <body>
-        <SEOProvider />
+        
         <Header></Header>
         {children}
         <Footer></Footer>
