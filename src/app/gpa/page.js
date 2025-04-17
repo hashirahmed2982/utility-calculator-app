@@ -153,6 +153,7 @@ export default function CGPACalculator() {
   return (
     <>
       <Helmet>
+        
         <title>Ultimate CGPA Calculator - Calculate Your GPA and CGPA Easily</title>
         <meta
           name="description"
@@ -161,6 +162,7 @@ export default function CGPACalculator() {
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
+        
       </Helmet>
 
       <motion.div
