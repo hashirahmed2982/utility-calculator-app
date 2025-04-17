@@ -144,7 +144,7 @@ export default function CGPACalculator() {
       "Use the ultimate CGPA calculator to calculate your GPA, CGPA, and download a transcript PDF.",
     url: "https://yourwebsite.com/cgpa-calculator",
     mainEntityOfPage: "https://yourwebsite.com/cgpa-calculator",
-    image: "/path/to/your/image.jpg",
+    image: "/file.svg",
     potentialAction: {
       "@type": "Action",
       target: "https://yourwebsite.com/cgpa-calculator",

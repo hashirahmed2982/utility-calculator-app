@@ -20,7 +20,7 @@ export default function Footer() {
             <li><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
             <li><Link href="/terms-and-conditions" className="hover:text-white">Terms & Conditions</Link></li>
             <li><Link href="/contact" className="hover:text-white">Contact Us</Link></li>
-            <li><Link href="/sitemap.xml" className="hover:text-white">Sitemap</Link></li>
+            {/* <li><Link href="/sitemap.xml" className="hover:text-white">Sitemap</Link></li> */}
           </ul>
         </div>
 
