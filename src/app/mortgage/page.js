@@ -17,19 +17,16 @@ export default function MortgageCalculator() {
 
   // Fetching articles from NewsAPI on page load
   useEffect(() => {
-    async function fetchArticles() {
-      try {
-        const response = await fetch(API_URL);
-        const data = await response.json();
-        setArticles(data.articles);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching articles:", error);
-        setLoading(false);
-      }
-    }
-
-    fetchArticles();
+    fetch("/api/news?q=mortrage")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("News articles:", data.articles);
+         setArticles(data.articles); // if you're using state
+         setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch news", err);
+      });
   }, []); // Empty dependency array ensures this runs only once on page load
 
   // Mortgage payment calculation logic (using loan amortization formula)
