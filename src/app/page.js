@@ -65,7 +65,7 @@ export default function HomePage() {
             { name: 'Date Calculator', href: 'date' },
             { name: 'Time Calculator', href: 'time' },
             { name: 'Hours Calculator', href: 'hours' },
-            { name: 'GPA Calculator', href: 'gpa' },
+            { name: 'GPA Calculator', href: 'cgpa-calculator' },
           ]}
         />
       </section>
