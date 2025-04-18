@@ -5,6 +5,7 @@ import './globals.css';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import Script from 'next/script';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Best Online Calculator Tool – Utility Hub",
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         <Header></Header>
         {children}
         <Footer></Footer>
+        <Analytics />
       </body>
     </html>
   );
