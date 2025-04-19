@@ -106,12 +106,12 @@ export default function CGPACalculator() {
     name: "CGPA Calculator",
     description:
       "Accurately calculate your GPA and CGPA using our online CGPA calculator. Get a downloadable transcript and GPA breakdown.",
-    url: "https://utilitycalculators.online/cgpa-calculator",
-    mainEntityOfPage: "https://utilitycalculators.online/cgpa-calculator",
+    url: "https://www.utilitycalculators.online/cgpa-calculator",
+    mainEntityOfPage: "https://www.utilitycalculators.online/cgpa-calculator",
     image: "/file.svg",
     potentialAction: {
       "@type": "Action",
-      target: "https://utilitycalculators.online/cgpa-calculator",
+      target: "https://www.utilitycalculators.online/cgpa-calculator",
       name: "Calculate CGPA",
     },
   };
@@ -130,7 +130,7 @@ export default function CGPACalculator() {
           name="description"
           content="Free and accurate CGPA calculator to compute your GPA and download a transcript PDF. Designed for college and university students."
         />
-        <meta property="og:url" content="https://utilitycalculators.online/cgpa-calculator" />
+        <meta property="og:url" content="https://www.utilitycalculators.online/cgpa-calculator" />
         <meta property="og:type" content="website" />
 
         <script type="application/ld+json">
