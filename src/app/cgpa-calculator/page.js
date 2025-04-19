@@ -106,12 +106,12 @@ export default function CGPACalculator() {
     name: "CGPA Calculator",
     description:
       "Accurately calculate your GPA and CGPA using our online CGPA calculator. Get a downloadable transcript and GPA breakdown.",
-    url: "https://www.utilitycalculators.online/cgpa-calculator",
-    mainEntityOfPage: "https://www.utilitycalculators.online/cgpa-calculator",
+    url: "https://utilitycalculators.online/cgpa-calculator",
+    mainEntityOfPage: "https://utilitycalculators.online/cgpa-calculator",
     image: "/file.svg",
     potentialAction: {
       "@type": "Action",
-      target: "https://www.utilitycalculators.online/cgpa-calculator",
+      target: "https://utilitycalculators.online/cgpa-calculator",
       name: "Calculate CGPA",
     },
   };
@@ -120,16 +120,19 @@ export default function CGPACalculator() {
     <>
       <Helmet>
         <title>
-          CGPA Calculator | GPA & Transcript Generator for Students
+          CGPA Calculator - Accurate, Free & Fast | GPA & Transcript Generator for Students
         </title>
+
+
+        <meta name="keywords" content="CGPA calculator,cgpa calculator, GPA calculator, transcript generator, grade calculator, GPA vs CGPA, cumulative GPA, grade point average calculator, free CGPA tool" />
+        <meta property="og:title" content="Free CGPA Calculator - Calculate Your Academic Performance" />
         <meta
           name="description"
           content="Free and accurate CGPA calculator to compute your GPA and download a transcript PDF. Designed for college and university students."
         />
-        <meta
-          name="keywords"
-          content="CGPA calculator, GPA calculator, transcript generator, grade calculator"
-        />
+        <meta property="og:url" content="https://utilitycalculators.online/cgpa-calculator" />
+        <meta property="og:type" content="website" />
+
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
@@ -346,29 +349,29 @@ export default function CGPACalculator() {
             </div>
 
           </div>
-          
+
           {/* Related Articles */}
           <div className="bg-white p-6 shadow-md rounded-lg h-fit">
-          {/* Right: Sidebar Content */}
-          <div className="bg-white p-6 shadow-md rounded-lg h-fit  mb-4" >
-            <div className="bg-white p-4 rounded-xl shadow-sm">
-              <h2 className="text-xl font-bold mb-2 text-gray-800">Related Tools</h2>
-              <ul className="list-disc list-inside text-blue-600 space-y-1">
-                <li><a href="/loan">Loan Calculator</a></li>
-                <li><a href="/percentage">Percentage Calculator</a></li>
-                <li><a href="/calorie">Calorie Calculator</a></li>
-                <li><a href="/bmi">BMI Calculator</a></li>
-              </ul>
+            {/* Right: Sidebar Content */}
+            <div className="bg-white p-6 shadow-md rounded-lg h-fit  mb-4" >
+              <div className="bg-white p-4 rounded-xl shadow-sm">
+                <h2 className="text-xl font-bold mb-2 text-gray-800">Related Tools</h2>
+                <ul className="list-disc list-inside text-blue-600 space-y-1">
+                  <li><a href="/loan">Loan Calculator</a></li>
+                  <li><a href="/percentage">Percentage Calculator</a></li>
+                  <li><a href="/calorie">Calorie Calculator</a></li>
+                  <li><a href="/bmi">BMI Calculator</a></li>
+                </ul>
+              </div>
+              <div className="bg-white p-4 rounded-xl shadow-sm">
+                <h2 className="text-lg font-bold text-gray-800">Tips to Improve CGPA</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Retake low grade courses</li>
+                  <li>Focus on high-credit subjects</li>
+                  <li>Calculate CGPA every semester</li>
+                </ul>
+              </div>
             </div>
-            <div className="bg-white p-4 rounded-xl shadow-sm">
-              <h2 className="text-lg font-bold text-gray-800">Tips to Improve CGPA</h2>
-              <ul className="list-disc list-inside text-gray-700">
-                <li>Retake low grade courses</li>
-                <li>Focus on high-credit subjects</li>
-                <li>Calculate CGPA every semester</li>
-              </ul>
-            </div>
-          </div>
             <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
             {loading ? (
               <p>Loading articles...</p>
